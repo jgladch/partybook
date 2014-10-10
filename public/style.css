@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  /*background: rgb(160,197,232); /* Old browsers */
+  background: rgb(160,197,232);
   background: -moz-linear-gradient(top, rgba(160,197,232,1) 0%, rgba(203,235,255,1) 47%, rgba(255,255,255,1) 100%); 
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(160,197,232,1)), color-stop(47%,rgba(203,235,255,1)), color-stop(100%,rgba(255,255,255,1)));
   background: -webkit-linear-gradient(top, rgba(160,197,232,1) 0%,rgba(203,235,255,1) 47%,rgba(255,255,255,1) 100%); 
@@ -11,18 +11,20 @@ body {
 }
 
 h1 {
-  font-family: 'Yellowtail', cursive;
+  font-family: 'Amatic SC', cursive;
   font-weight: bold;
-  font-size: 175px;
-  color: #ffcccc;
+  font-size: 185px;
+  color: #FF9898;
   margin: 10px 0 0 0;
-  text-shadow: 0px 0px 50px rgba(178, 125, 125, .5);
+  -webkit-text-stroke: 1px #FFFFFF;
+  text-shadow: 0px 0px 15px rgba(255, 255, 255, 1);
 }
 
 h2 {
   font-family: Arial, sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
+  margin-top: 0;
 }
 
 a {
