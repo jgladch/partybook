@@ -1,19 +1,25 @@
 body {
   text-align: center;
+  background-color: rgb(255, 252, 245);
 }
 
 h1 {
   font-family: 'Yellowtail', cursive;
   font-size: 160px;
+  color: #ffcccc;
   margin: 10px 0 0 0;
 }
 
 h2 {
   font-family: sans-serif;
-  color: #333;
+  color: #7F6666;
 }
 
 h3 {
   font-family: sans-serif;
-  color: #333;
+  color: #7F6666;
+}
+
+a {
+  color: #7F6666;
 }
