@@ -1,0 +1,25 @@
+{
+  "name": "partybook",
+  "version": "0.0.0",
+  "homepage": "partybook.co",
+  "authors": [
+    "jgladch <jeffgladchun@gmail.com>"
+  ],
+  "main": "main.html",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "license": "NA",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  }
+}
